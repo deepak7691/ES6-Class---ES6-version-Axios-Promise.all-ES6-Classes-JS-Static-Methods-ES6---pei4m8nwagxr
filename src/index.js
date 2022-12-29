@@ -18,11 +18,11 @@ class API {
   }
   
 
-const s = new API('http://api. com/api/hello')
+const s = new API('http://api.com/api/hello')
 console. log(s. isSecure()) // false
 
-s.updateUrl('https://api. com/api/hello')
-console. log(s. isSecure()) // true
+s.updateUrl('https://api.com/api/hello')
+console. log(s.isSecure()) // true
 
 console.log(s.url) // https://api. com/api/hello
 
