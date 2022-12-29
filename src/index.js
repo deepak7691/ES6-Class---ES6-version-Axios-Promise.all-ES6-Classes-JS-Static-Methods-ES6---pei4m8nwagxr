@@ -17,12 +17,4 @@ class API {
     }
   }
   
-  const s = new API('http://api.com/api/hello');
-  console.log(s.isSecure()); 
   
-  s.updateURL('https://api.com/api/hello');
-  console.log(s.isSecure()); 
-  
-  console.log(s.url); 
-  console.log(s.method);
-  console.log(s.secure); 
