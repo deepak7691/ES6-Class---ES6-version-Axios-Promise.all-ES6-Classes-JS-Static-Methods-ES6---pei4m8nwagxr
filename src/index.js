@@ -3,7 +3,7 @@ class API {
     constructor(url, method = 'GET') {
       this.url = url;
       this.method = method;
-      this.#secure = this.url.startsWith('https');
+      this.#secure = url.startsWith('https');
     }
   
     isSecure() {
@@ -12,7 +12,7 @@ class API {
   
     updateURL(url) {
       this.url = url;
-      this.#secure = this.url.startsWith('https');
+      this.#secure = url.startsWith('https');
     }
   }
 module.exports = {API}
