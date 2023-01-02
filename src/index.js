@@ -15,5 +15,5 @@ class API {
       this.#secure = url.startsWith('https');
     }
   }
-module.exports = {API}
+module.exports = { API }
   
